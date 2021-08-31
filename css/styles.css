@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 main{
-    padding-top:12rem;
+    padding-top:5rem;
 }
 header{/*cabecera fija*/
     height: 60px;
@@ -35,12 +35,31 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #4a4a4a;
 }
+/*section presentacion*/
+.presentacion{
+    height:500px;
+    background-color: pink;
+    display: flex;
+}
+.presentacion div.titulo{
+    border:1px solid black;
+    width:40%;
+    justify-content: left;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentacion div.imagen{
+    justify-content: right;
 
-
+}
 
 @media only screen and (max-width: 767px){
     
     ul li{
         display: block;
+    }
+    main{
+        padding-top:15rem;
     }
 }

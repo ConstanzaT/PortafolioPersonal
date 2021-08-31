@@ -4,6 +4,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.bold{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom:-30px;
+}
+.bajada{
+    font-size: 1em;
+}
+h1{
+    font-size: 6em;
+    font-weight: bold;
+    color:purple;
+
+}
 main{
     padding-top:5rem;
 }
@@ -15,7 +29,9 @@ header{/*cabecera fija*/
     width:100%;
 }
 nav{
-    background-color: #333;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+
 }
 nav ul{
     display: flex;
@@ -29,7 +45,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:white;
+    color:rgb(100, 100, 100);
     transition: all 0.4 linear;
 }
 nav ul li a:hover{
@@ -38,22 +54,35 @@ nav ul li a:hover{
 /*section presentacion*/
 .presentacion{
     height:500px;
-    background-color: pink;
     display: flex;
 }
 .presentacion div.titulo{
-    border:1px solid black;
-    width:40%;
+    width:80%;
     justify-content: left;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+
+}
+.titulocontenedor{
+    width:80%;
+    margin:120px auto 10px auto;
+    padding-left:130px;
 }
 .presentacion div.imagen{
     justify-content: right;
-
+    flex-wrap: wrap;
 }
-
+.titulocontenedor button{
+    background-color: purple;
+    border-radius: 100px;
+    padding:10px 10px 10px 10px;
+    width:200px;
+    margin-top:30px;
+    border:none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
 @media only screen and (max-width: 767px){
     
     ul li{

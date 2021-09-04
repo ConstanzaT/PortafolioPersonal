@@ -8,6 +8,7 @@
     font-weight: bold;
     font-size: 2em;
     margin-bottom:-30px;
+    color: salmon;
 }
 .bajada{
     font-size: 1em;
@@ -15,8 +16,11 @@
 h1{
     font-size: 6em;
     font-weight: bold;
-    color:purple;
+    color: #2F2E41;
 
+}
+h2{
+    font-size: 3em;
 }
 main{
     padding-top:5rem;
@@ -72,7 +76,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
 }
 .titulocontenedor button{
-    background-color: purple;
+    background-color: salmon;
     border-radius: 100px;
     padding:10px 10px 10px 10px;
     width:200px;
@@ -86,10 +90,29 @@ nav ul li a:hover{
 /*section conocimientos*/
 .conocimientos{
     background-color:salmon;
-    height:800px;
+    height:980px;
+    text-align: center;
+    padding-top:110px;
+}
+.conocimientos p{
+    padding:70px;
+    text-align: center;
+    width:60%;
+    margin:0 auto;
+}
+.conocimientosContainer{
+    width:660px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto; 
+}
+.conocimientosContainer > div{
+    border:1px solid black;
+    width:200px;
+    height:200px;
+    margin:10px;
     text-align: center;
 }
-
 
 #start1{
     transform: translate(16%, 26%);

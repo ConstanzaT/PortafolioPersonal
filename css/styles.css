@@ -163,7 +163,43 @@ nav ul li a:hover{
     background-color:#ccc;
     margin-top:100px;
     height:600px;
+    padding-top:50px;
+
 }
+.contactoContainer{
+    background-color:white;
+    width:90%;
+    margin:0 auto;
+    height:500px;
+    display: flex;
+
+}
+#redes{
+    background-color: indigo;
+    display: flex;   
+    flex-direction: column;
+    width:80%;
+    padding-top:40px;
+}
+
+#redes h2, #redes p, #redes a{
+    text-align: left;
+    width:50%;
+    margin:0 auto;
+
+}
+#redes p{
+    margin-bottom: 20px;
+}
+#redes a{
+    margin-top:10px;
+}
+
+
+
+
+
+/*animación section inicio*/
 #start1{
     transform: translate(16%, 26%);
     animation: moveStar 1s 0.5s both;

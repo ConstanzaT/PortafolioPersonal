@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 .bold{
     font-weight: bold;
@@ -82,7 +83,7 @@ nav ul li a:hover{
     width:200px;
     margin-top:30px;
     border:none;
-    color:white;
+    color: #2F2E41;
     text-transform: uppercase;
     font-weight: bold;
     
@@ -93,6 +94,7 @@ nav ul li a:hover{
     height:980px;
     text-align: center;
     padding-top:110px;
+    color: #2F2E41;
 }
 .conocimientos p{
     padding:70px;
@@ -107,11 +109,34 @@ nav ul li a:hover{
     margin:0 auto; 
 }
 .conocimientosContainer > div{
-    border:1px solid black;
+    border:1px solid white;
     width:200px;
     height:200px;
     margin:10px;
     text-align: center;
+}
+
+/* cita section */
+
+.cita{
+    color: #2F2E41;
+    height:400px;
+    padding:70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.cita .frase{
+    font-size: 2em;
+    text-align: center;
+
+}
+.cita p{
+    text-align: center;
+    margin-top:30px;
+}
+.cita img{
+
 }
 
 #start1{

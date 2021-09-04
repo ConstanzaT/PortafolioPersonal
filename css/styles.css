@@ -138,24 +138,28 @@ nav ul li a:hover{
 
 /* proyectos section */
 .proyectos{
-    height:850px;
+    height:950px;
 }
 .proyectosContainer{
-    width:660px;
+    width:850px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
     text-align: center;
 }
 .proyectosContainer > div{
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     margin:10px;
     background-color:salmon;
 }
 .proyectos h2{
     text-align: center;
     padding:50px;
+}
+.proyecto img{
+    width: 170px;
+    height:170px;
 }
 /*section contacto */
 
@@ -174,12 +178,11 @@ nav ul li a:hover{
     display: flex;
 
 }
-#redes{
-    background-color: indigo;
+#redes, #formulario{
     display: flex;   
     flex-direction: column;
     width:80%;
-    padding-top:40px;
+    padding-top:60px;
 }
 
 #redes h2, #redes p, #redes a{
@@ -194,8 +197,9 @@ nav ul li a:hover{
 #redes a{
     margin-top:10px;
 }
+#formulario{
 
-
+}
 
 
 

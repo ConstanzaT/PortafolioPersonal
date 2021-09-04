@@ -83,6 +83,36 @@ nav ul li a:hover{
     font-weight: bold;
     
 }
+/*section conocimientos*/
+.conocimientos{
+    background-color:salmon;
+    height:800px;
+    text-align: center;
+}
+
+
+#start1{
+    transform: translate(16%, 26%);
+    animation: moveStar 1s 0.5s both;
+
+}
+#start2{
+    transform: translate(2%, 26%);
+    animation: moveStar 1s 0.5s both;
+
+}
+#start2{
+    transform: translate(57%, 26%);
+    animation: moveStar 1s 0.5s both;
+
+}
+
+@keyframes moveStar{
+    100%{
+        transform:unset;
+    }
+}
+
 @media only screen and (max-width: 767px){
     
     ul li{

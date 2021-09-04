@@ -138,10 +138,11 @@ nav ul li a:hover{
 
 /* proyectos section */
 .proyectos{
-    height:950px;
+    height:1050px;
+    background-color: #ccc;
 }
 .proyectosContainer{
-    width:850px;
+    width:820px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
@@ -166,8 +167,7 @@ nav ul li a:hover{
 /*section contacto */
 
 .contacto{
-    background-color:#ccc;
-    margin-top:100px;
+    background-color:salmon;
     height:600px;
     padding-top:50px;
 
@@ -199,10 +199,13 @@ nav ul li a:hover{
 #redes a{
     margin-top:10px;
 }
-#formulario{
+/* section formulario */
 
+/*footer*/
+footer{
+    color:white;
+    background-color:#2F2E41 ;
 }
-
 
 
 /*animación section inicio*/

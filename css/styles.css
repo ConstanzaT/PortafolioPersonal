@@ -135,10 +135,35 @@ nav ul li a:hover{
     text-align: center;
     margin-top:30px;
 }
-.cita img{
 
+/* proyectos section */
+.proyectos{
+    height:850px;
 }
+.proyectosContainer{
+    width:660px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    text-align: center;
+}
+.proyectosContainer > div{
+    width:200px;
+    height:200px;
+    margin:10px;
+    background-color:salmon;
+}
+.proyectos h2{
+    text-align: center;
+    padding:50px;
+}
+/*section contacto */
 
+.contacto{
+    background-color:#ccc;
+    margin-top:100px;
+    height:600px;
+}
 #start1{
     transform: translate(16%, 26%);
     animation: moveStar 1s 0.5s both;

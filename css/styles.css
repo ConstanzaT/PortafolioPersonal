@@ -58,7 +58,6 @@ nav ul li a:hover{
 }
 /*section presentacion*/
 .presentacion{
-    height:500px;
     display: flex;
 }
 .presentacion div.titulo{
@@ -90,41 +89,70 @@ nav ul li a:hover{
 }
 /*section conocimientos*/
 .conocimientos{
-    background-color:salmon;
-    height:980px;
+    background-color:rgb(235, 235, 235);
     text-align: center;
     padding-top:110px;
     color: #2F2E41;
 }
 .conocimientos p{
-    padding:70px;
     text-align: center;
     width:60%;
     margin:0 auto;
+    padding-top:70px;
 }
 .conocimientosContainer{
-    width:660px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto; 
 }
-.conocimientosContainer > div{
-    border:1px solid white;
-    width:200px;
-    height:200px;
-    margin:10px;
-    text-align: center;
-}
+.wrapper {
+    display: flex;
+    margin:  100px 300px;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+ 
+ }
+ 
+ 
+ .item {
+     align-self: center;
+     margin: 16px 2px;
+     
+ }
+ 
+ .item:hover {
+    box-shadow: rgb(209, 209, 209) 3px 3px 16px 3px;
+    border-radius: 10px;
 
+ }
+   
+   
+ 
+ .wrapper img {
+    width: 210px;
+    height: 210px;
+    padding:30%;
+ }
+
+ .nameimg {
+    padding: 8px 8px 10px 8px;
+    border: 1px solid rgb(248, 247, 246);
+    background: rgb(247, 246, 244);
+    border-radius: 10px;
+
+ }
+ figcaption {
+    height: 20px; 
+ }
 /* cita section */
 
 .cita{
-    color: #2F2E41;
-    height:400px;
+    color: white;
+
     padding:70px;
     display: flex;
     flex-direction: column;
-
+    background-color: salmon;
 }
 .cita .frase{
     font-size: 2em;
@@ -138,8 +166,7 @@ nav ul li a:hover{
 
 /* proyectos section */
 .proyectos{
-    height:1050px;
-    background-color: #ccc;
+    background-color: rgb(241, 241, 241);
 }
 .proyectosContainer{
     width:820px;
@@ -167,8 +194,7 @@ nav ul li a:hover{
 /*section contacto */
 
 .contacto{
-    background-color:salmon;
-    height:600px;
+    background-color:rgb(223, 223, 223);
     padding-top:50px;
 
 }

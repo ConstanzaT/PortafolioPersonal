@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 2em;
     margin-bottom:-30px;
-    color: salmon;
+    color: #CF649A;
 }
 .bajada{
     font-size: 1em;
@@ -21,7 +21,11 @@ h1{
 
 }
 h2{
+    padding-top:110px;
+
     font-size: 3em;
+    color: #2F2E41;
+    text-align: center;
 }
 main{
     padding-top:5rem;
@@ -76,7 +80,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
 }
 .titulocontenedor button{
-    background-color: salmon;
+    background-color: #CF649A;
     border-radius: 100px;
     padding:10px 10px 10px 10px;
     width:200px;
@@ -90,9 +94,10 @@ nav ul li a:hover{
 /*section conocimientos*/
 .conocimientos{
     background-color:rgb(235, 235, 235);
-    text-align: center;
-    padding-top:110px;
     color: #2F2E41;
+    text-align: center;
+
+
 }
 .conocimientos p{
     text-align: center;
@@ -152,7 +157,7 @@ nav ul li a:hover{
     padding:70px;
     display: flex;
     flex-direction: column;
-    background-color: salmon;
+    background-color: #F398C6;
 }
 .cita .frase{
     font-size: 2em;
@@ -166,37 +171,35 @@ nav ul li a:hover{
 
 /* proyectos section */
 .proyectos{
-    background-color: rgb(241, 241, 241);
+    background-color: white;
 }
 .proyectosContainer{
-    width:820px;
     display: flex;
     flex-wrap: wrap;
-    margin:0 auto;
     text-align: center;
+    padding:10%;
+    border:1px solid black;
+    align-items: center;
+    justify-content: center;
 }
 .proyectosContainer > div{
     width:250px;
     height:250px;
-    margin:10px;
+    margin:5%;
 }
 .proyectosContainer > div:hover{
-    border:1px solid salmon;
-}
-.proyectos h2{
-    text-align: center;
-    padding:50px;
+     box-shadow: rgb(209, 209, 209) 3px 3px 16px 3px;
+    border-radius: 10px;
 }
 .proyecto img{
-    width: 170px;
-    height:170px;
+
 }
 /*section contacto */
 
 .contacto{
-    background-color:rgb(223, 223, 223);
-    padding-top:50px;
-
+    background-color:rgb(243, 242, 242);
+    padding-top:250px;
+    padding-bottom: 100px;
 }
 .contactoContainer{
     background-color:white;
@@ -206,6 +209,19 @@ nav ul li a:hover{
     display: flex;
 
 }
+/* formulario*/
+.formularioContainer{
+    border:1px solid black;
+}
+.formwrapper{
+   
+}
+.itemwrapper{
+    border:1px solid black;
+ display: flex;
+    
+}
+
 #redes, #formulario{
     display: flex;   
     flex-direction: column;
@@ -230,7 +246,7 @@ nav ul li a:hover{
 /*footer*/
 footer{
     color:white;
-    background-color:#2F2E41 ;
+    background-color:salmon ;
 }
 
 

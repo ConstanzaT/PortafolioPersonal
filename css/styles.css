@@ -191,9 +191,6 @@ nav ul li a:hover{
      box-shadow: rgb(209, 209, 209) 3px 3px 16px 3px;
     border-radius: 10px;
 }
-.proyecto img{
-
-}
 /*section contacto */
 
 .contacto{
@@ -249,7 +246,6 @@ form{
 }
 #camposflex{
     display: flex;
-
 }
 #camposflex input{
    width:95%;

@@ -145,6 +145,7 @@
         <section id="proyectos" class="proyectos">    <!--Sección de proyectos con grilla de proyectos-->
             <h2>Mis proyectos</h2>
             <div class="proyectosContainer">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque laboriosam fugiat vitae nisi, non repudiandae suscipit minus, harum, voluptate dolore iste aliquid. Dolore modi corporis tempore quisquam quas nisi mollitia!</p>
                 <div class="proyecto">
                     <img src="img/imagen.svg" alt="Portfolio image" />
                     <span>Portafolio profesional</span>
@@ -186,38 +187,36 @@
                     <a href="/home"><img src="" alt="img" />Sitio web</a>
 
                 </div>
+                
                 <div id="formulario">
+
                     <h2>Escribime</h2>
-                    <div class="formularioContainer">
-                        
-                        <div class="form-wrapper">
-                        <form action="" method="post">
-                            
-                            <div class="itemwrapper">
-                            <label for="name" >Nombre</label>
-                            <input type="text" name="firstname" size="15" maxlenght="30" id="name" />
-                            </div>
-
-                            <div class="itemwrapper">
-                            <label for="name" >Apellido</label>
-                            <input type="text" name="lastname" id="name" />
-                            
-
-                            <div class="itemwrapper">
-                            <label for="name" >Email</label>
-                            <input type="text" name="email" id="name"  />
-                            </div>
-
-                            <div class="itemwrapper">
-                            <label for="name" >Mensaje</label>
-                            <textarea name="msg" name="msg" >Escriba un mensaje...</textarea>
-                            </div>
-
+                    
+                        <form method="POST" action="#" name="mensaje" enctype="multipart/form-data">  
+                          
+                            <div id="camposflex">
+                            <p>Nombre: <br />  
+                            <input class="campos" type="text" name="nombre"></p>  
+                             
+                            <p>Nombre: <br />  
+                                <input class="campos" type="text" name="nombre"></p>  
+                    
+                           
+                             </div>
+                              <p>E-Mail: <br />  
+                            <input class="campos" type="text" name="email"></p>
+                            <p>Mensaje:<br />  
+                            <textarea class="campos" rows="10" name="mensaje"></textarea></p> 
+                    
+                            <div id="b_submit"> 
+                            <input class="boton" type="submit" value="Enviar mensaje" name="B1"> 
+                            </div> 
+                    
                         </form>
-                    </div>
-                      </div>
-                     </div>
-                </div>
+                    
+                    </div>    
+
+
              </div><!--cierre de container contacto para flex-->
         </section>
     </main>

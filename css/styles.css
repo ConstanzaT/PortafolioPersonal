@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
     
 }
 .bold{
@@ -13,6 +14,10 @@
 }
 .bajada{
     font-size: 1em;
+}
+.destacado{
+    background-color: #F398C6;
+
 }
 h1{
     font-size: 6em;
@@ -178,7 +183,6 @@ nav ul li a:hover{
     flex-wrap: wrap;
     text-align: center;
     padding:10%;
-    border:1px solid black;
     align-items: center;
     justify-content: center;
 }
@@ -256,29 +260,40 @@ form{
     font-size:12px; 
     font-family:Verdana,Helvetica; 
     font-weight:bold; 
-    color:#0000FF; 
-    background:#A4C1FF; 
+    background-color: #F398C6;
     border:0px; 
     width:120px; 
     height:25px; 
-
     border-radius: 15px; 
 } 
-
-#b_submit {  
-    float:right;
-
-}  
-
 
 
 /*footer*/
 footer{
     color:white;
-    background-color:salmon ;
+    background-color:rgb(43, 43, 43) ; /*variable*/
+    text-align: center;
+    padding:50px;
 }
+.footer{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer ul{
+    display: flex;
+    justify-content:center;
+}
+.footer ul li{
+    list-style: none;
+    margin-top:70px;
+    padding:20px;
 
-
+}
+footer a{
+    color:#E3E3E3;/* variable */
+}
 /*animación section inicio*/
 #start1{
     transform: translate(16%, 26%);

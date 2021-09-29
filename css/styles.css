@@ -220,16 +220,20 @@ nav ul li a:hover{
 
 #redes h2, #redes p, #redes a{
     text-align: left;
-    width:50%;
+    width:65%;
     margin:0 auto;
 
 }
+
 #redes p{
     margin-bottom: 20px;
 }
-#redes a{
-    margin-top:10px;
+
+#redes{
+    display: flex;
 }
+#redes > div{
+border:1px solid black;}
 /* section formulario */
 /* formulario*/
 

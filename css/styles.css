@@ -195,6 +195,9 @@ nav ul li a:hover{
      box-shadow: rgb(209, 209, 209) 3px 3px 16px 3px;
     border-radius: 10px;
 }
+.img1{
+    background-image:url('../img/porta.JPG') ;
+}
 /*section contacto */
 
 .contacto{

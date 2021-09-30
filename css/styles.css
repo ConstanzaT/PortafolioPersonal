@@ -337,17 +337,52 @@ footer a{
 
 @media only screen and (max-width: 1100px){
     
+    /*section presentacion*/
     nav{
         visibility: hidden;
     }
-    .imagen{
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        margin:0 auto;
+        text-align: center;
         
-        visibility: hidden;
     }
-    #imagen{
-        background-image: url('../img/css.png');
-        background-repeat: no-repeat;
-        width:300px;
-        height:300px;
+       .titulocontenedor h1, .presentacion h2, .bold, .titulo, p.bajada{
+        text-align: center;
+        padding:0;
+        margin:0 auto;
     }
+    .titulocontenedorulo{
+        padding:0;
+        margin:0;
+    }
+    .presentacion div.titulo{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .titulocontenedor{
+        margin:0 auto;
+        padding:0;
+    }
+
+    .img-portada{
+        margin:0 auto;
+        width:450px;
+        height:350px;
+        margin-top:50px;
+        
+    }
+
+
+    /*section conocimientos*/
+
+    .wrapper{
+        margin:100px;
+  }
+
+  
 }

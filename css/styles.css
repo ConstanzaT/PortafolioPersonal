@@ -384,8 +384,40 @@ footer a{
         margin:100px;
   }
 
-  
+    /* section contacto */
+   
+    #redes{
+        margin:0 auto;
+        padding:0;    
+        text-align: left;
+    
+    }
+    
+    .contactoContainer{
+        display: block;
+    }
+
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px){
 
@@ -402,14 +434,51 @@ footer a{
     .img-portada{
         margin:0 auto;
         width:250px;
-        height:150px;
+        height:200px;
         margin-top:50px;
         
     }
+    footer ul.hidden{
+        visibility: hidden;
+        margin-top:-200px;
+    }
+    footer ul{
+        margin:0;
+    }
+    #redes h2{
+        font-size: 2em;
+        width:100%;
+        text-align: center;
+    }
+    
 }
 @media only screen and (max-width: 320px){
    
+    h2{
+        font-size: 1.5em;
 
+    }
+    #redes, #formulario{
+        margin:0 auto;
+    }
+    #redes h2{
+        font-size: 1.5em;
+        width:100%;
+        text-align: center;
+    }
+    .contactoContainer p{
+        font-size: 1em;
+
+    }
+    .contactoContainer {
+        margin:0 auto;
+        padding:0;
+    }
+    footer ul.hidden{
+        visibility: hidden;
+    }
+  
+ 
 }
 
 

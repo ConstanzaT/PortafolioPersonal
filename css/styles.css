@@ -208,21 +208,24 @@ nav ul li a:hover{
     background-color:rgb(243, 242, 242);
     padding-top:250px;
     padding-bottom: 100px;
+  
 }
 .contactoContainer{
     background-color:white;
     width:90%;
     margin:0 auto;
     display: flex;
+    
 }
 #redes, #formulario{
     display: flex;   
     flex-direction: column;
     width:80%;
-    padding:60px;
+    padding:60px;    
+
 }
 
-#redes h2, #redes p, #redes a{
+#redes h2, #redes p{
     text-align: left;
     width:65%;
     margin:0 auto;
@@ -233,11 +236,22 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
-#redes{
-    display: flex;
+.icons{
+   width:70%;
+   margin:0 auto;
+   margin-top:20px;
 }
-#redes > div{
-border:1px solid black;}
+.icons img{
+    margin-right:10px;
+}
+.icons a{
+    top:10px;
+    color:black;
+    font-weight: normal;
+
+
+}
+
 /* section formulario */
 /* formulario*/
 

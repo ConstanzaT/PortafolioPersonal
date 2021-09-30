@@ -16,7 +16,10 @@
     font-size: 1em;
 }
 .destacado{
+    padding: 15px 20px 15px 20px;
     background-color: #F398C6;
+    border-radius: 100px;
+    color:white;
 
 }
 h1{
@@ -51,6 +54,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin-right:10%;
 }
 nav ul li{
     margin-left:1%;

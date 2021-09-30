@@ -239,7 +239,7 @@ border:1px solid black;}
 
 
 form{
-    width:80%;
+    width:100%;
 
 }
 #formulario h2{
@@ -247,31 +247,42 @@ form{
     
 }
 .campos {
-    width: 80%;
-    padding: 5px 7px 5px 7px;
-    background-color:rgb(235, 235, 235);
+    width: 100%;
+    padding: 10px 7px 5px 7px;
+    background-color:rgb(241, 244, 247);
     border:none;
     border-radius: 15px;
+    margin-bottom:10px;
+    
+}
+textarea:focus, input:focus{
+    border-color: #F398C6;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #F398C6;
+    outline: 0 none;
 }
 #camposflex{
     display: flex;
 }
 #camposflex input{
-   width:95%;
-   margin-right:10px;
+   margin-right:100px;
     
 }
 .boton{ 
-    font-size:12px; 
-    font-family:Verdana,Helvetica; 
-    font-weight:bold; 
     background-color: #F398C6;
     border:0px; 
-    width:120px; 
-    height:25px; 
-    border-radius: 15px; 
+    padding:17px 30px 17px 30px;
+    border-radius: 150px; 
+    width:150px;
+    font-size: 1em;
+    color:white;
 } 
-
+.boton:hover{
+    background-color:#CF649A;
+    cursor:pointer;
+}
+.email, textarea{
+    width:100%;
+}
 
 /*footer*/
 footer{

@@ -4,7 +4,7 @@ Proyecto final del modulo 1 de HTML y CSS de la carrera de desarrollo Frontend e
 
 <h2>Tabla de contenidos</h2>
 <ul>
-<li><a name="presentacion">Portada de presentación</a></li>
+<li><a>Portada de presentación</a></li>
 </ul>
 
 <h2 id="presentación">Portada</h2>

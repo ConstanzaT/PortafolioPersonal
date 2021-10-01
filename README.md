@@ -22,8 +22,5 @@ En esta sección pueden encontrar una breve presentación sobre quién soy.
 
 En esta sección pueden encontrar las tecnologías que utilizo para trabajar en el desarrollo de mis proyectos.
 
-
-![image](https://user-images.githubusercontent.com/72681000/135694126-26d162cc-2f8d-4a0d-b57a-47a3b030b766.png)
-
 ![image](https://user-images.githubusercontent.com/72681000/135694376-c05c8280-4ce1-45e5-bb39-4aae28b8dfce.png)
 

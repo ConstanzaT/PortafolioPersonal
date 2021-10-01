@@ -2,7 +2,7 @@
 
 Proyecto final del modulo 1 de HTML y CSS de la carrera de desarrollo Frontend en Ada IT.
 
-<a href="https://constanzat.github.io/PortafolioPersonal/" target="blank" />Puedes ver mi portafolio en este link</a>
+<a href="https://constanzat.github.io/PortafolioPersonal/" target="_blank" />Puedes ver mi portafolio en este link</a>
 
 <h2>Tabla de contenidos</h2>
 <ul>

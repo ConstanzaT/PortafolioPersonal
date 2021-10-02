@@ -31,4 +31,7 @@ En esta sección pueden encontrar las tecnologías que utilizo para trabajar en 
 
 ![image](https://user-images.githubusercontent.com/72681000/135694739-3a78fe66-f6cd-405d-9c37-c12df9e862d7.png)
 
+<h2>Mis proyectos</h2>
+
+![image](https://user-images.githubusercontent.com/72681000/135727374-7b3f6b75-7012-457b-af44-41a67c7a277d.png)
 

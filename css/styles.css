@@ -290,9 +290,7 @@ textarea:focus, input:focus{
 #camposflex{
     display: flex;
 }
-#camposflex input{
-    
-}
+
 .boton{ 
     background-color: #F398C6;
     border:0px; 
@@ -417,14 +415,24 @@ footer a{
         display: block;
     }
 
+
     #camposflex p{
     
         margin-right: 1%;
         width: 111%;    
-        }
+    }
+
+    #formulario h2{
+        text-align:center;
     
 }
-
+    
+    
+#camposflex p{
+    
+    margin-right: 1%;
+    width: 111%;    
+    }
 
 
 
@@ -502,6 +510,4 @@ footer a{
         visibility: hidden;
     }
 
-}
-
-
+}}

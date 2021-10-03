@@ -39,7 +39,9 @@ En esta sección pueden encontrar las tecnologías que utilizo para trabajar en 
 
 ![image](https://user-images.githubusercontent.com/72681000/135772611-3a504a01-ab2d-4b7d-805b-fffda91c8acb.png)
 
+<h2>Pie de página</h2>
 
- 
+![image](https://user-images.githubusercontent.com/72681000/135772649-4ca03a7b-af7d-43b2-88d9-05fffa5f1fbc.png)
+
 
 

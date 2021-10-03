@@ -238,6 +238,7 @@ nav ul li a:hover{
     text-align: left;
     width:65%;
     margin:0 auto;
+   
 
 }
 
@@ -324,16 +325,18 @@ footer{
 .footer ul{
     display: flex;
     justify-content:center;
+    margin-top:50px;
 }
 .footer ul li{
     list-style: none;
     margin-top:70px;
-
+padding:1%;
 }
 footer a{
     color:#E3E3E3;/* variable */
 }
-
+.footer p{
+margin-top:50px;}
 #camposflex p{
     
     margin-right: 1%;

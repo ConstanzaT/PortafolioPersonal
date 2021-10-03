@@ -236,7 +236,6 @@ nav ul li a:hover{
 }
 #redes h2, #redes p{
     text-align: left;
-    width:65%;
    
    
 
@@ -444,6 +443,9 @@ margin-top:50px;}
 
 
 
+}
+
+
 
 
 
@@ -516,5 +518,7 @@ margin-top:50px;}
     footer ul.hidden{
         visibility: hidden;
     }
-
-}}
+    #redes p{
+        text-align: center;
+    }
+}

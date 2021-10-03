@@ -39,7 +39,6 @@ En esta sección pueden encontrar las tecnologías que utilizo para trabajar en 
 
 ![image](https://user-images.githubusercontent.com/72681000/135772611-3a504a01-ab2d-4b7d-805b-fffda91c8acb.png)
 
-![image](https://user-images.githubusercontent.com/72681000/135772631-cf38bf44-1352-45bb-8217-b3d3988add05.png)
 
  
 

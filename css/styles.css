@@ -209,13 +209,13 @@ nav ul li a:hover{
 /*section contacto */
 
 .contacto{
-    background-color:rgb(243, 242, 242);
     padding-top:250px;
     padding-bottom: 100px;
   
 }
 .contactoContainer{
-    background-color:white;
+    
+
     width:90%;
     margin:0 auto;
     display: flex;
@@ -225,10 +225,15 @@ nav ul li a:hover{
     display: flex;   
     flex-direction: column;
     width:80%;
-    padding:60px;    
+    padding:60px; 
+    margin:0 auto;   
 
 }
+#camposflex p{
 
+    margin-right:5%;
+    width:100%;
+}
 #redes h2, #redes p{
     text-align: left;
     width:65%;
@@ -252,7 +257,7 @@ nav ul li a:hover{
     top:10px;
     color:black;
     font-weight: normal;
-
+    font-size: 0.7em;
 
 }
 
@@ -286,7 +291,6 @@ textarea:focus, input:focus{
     display: flex;
 }
 #camposflex input{
-   margin-right:100px;
     
 }
 .boton{ 
@@ -326,12 +330,22 @@ footer{
 .footer ul li{
     list-style: none;
     margin-top:70px;
-    padding:20px;
 
 }
 footer a{
     color:#E3E3E3;/* variable */
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -386,7 +400,7 @@ footer a{
 
     /* section contacto */
    
-    #redes{
+    #redes, #formulario{
         margin:0 auto;
         padding:0;    
         text-align: left;
@@ -450,7 +464,7 @@ footer a{
         width:100%;
         text-align: center;
     }
-    
+   
 }
 @media only screen and (max-width: 320px){
    
@@ -477,8 +491,9 @@ footer a{
     footer ul.hidden{
         visibility: hidden;
     }
-  
- 
+    input.campos.block{
+        color:green;
+    }
 }
 
 

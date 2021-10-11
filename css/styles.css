@@ -72,7 +72,7 @@ nav ul li a{
     transition: all 0.4 linear;
 }
 nav ul li a:hover{
-    background-color: #4a4a4a;
+   color: #F398C6;
 }
 /*section presentacion*/
 .presentacion{

@@ -27,6 +27,10 @@ main,.conocimientos,.cita{
     color:white;
 
 }
+.destacado:hover{
+    background-color: #f5268d;
+    color:white;
+}
 h1{
     font-size: 6em;
     font-weight: bold;
@@ -93,14 +97,17 @@ nav ul li a:hover{
 .titulocontenedor button{
     background-color: #F398C6;
     border-radius: 100px;
-    padding:10px 10px 10px 10px;
+    padding: 15px 20px 15px 20px;
     width:200px;
     margin-top:30px;
     border:none;
-    color: #2F2E41;
+    color: white;
     text-transform: uppercase;
-    font-weight: bold;
     
+}
+.titulocontenedor button:hover{
+    background-color: #f5268d;
+    cursor:pointer;
 }
 .img-portada{
     margin-right:100px;
